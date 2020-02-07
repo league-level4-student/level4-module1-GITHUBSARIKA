@@ -23,6 +23,17 @@ public class CustomButtonOptionPanes {
 			System.out.println("Taco Tuesday. Eat tacos today!");
 			break;
 		case "Wednesday":
+			System.out.println("Waffle Wednesday. Eat waffles today!");
+			break;
+		case "Thursday":
+			System.out.println("Tiramisu Thursday. Eat tiramisu today!");
+			break;
+		case "Friday":
+			System.out.println("French Fry Friday. Eat french fries today!");
+			break;
+		case "Saturday":
+			System.out.println("Spaghetti Saturday. Eat Spaghetti today! ");
+			break;
 		}
 	}
 }
