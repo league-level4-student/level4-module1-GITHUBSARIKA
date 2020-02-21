@@ -12,7 +12,8 @@ public class SnakeSegment {
 	}
 	
 	public void setLocation(Location loc) {
-		this.location = loc;
+		this.location.x = loc.x;
+		this.location.y = loc.y;
 	}
 	
 	public Location getLocation() {
@@ -21,6 +22,6 @@ public class SnakeSegment {
 	
 	public void draw(Graphics g) {
 		g.setColor(Snake.SNAKE_COLOR);
-		g.drawRect(location.x * size, location.y * size, size, size);;
+		g.drawRect(location.x * size, location.y * size, size, size);
 	}
 }

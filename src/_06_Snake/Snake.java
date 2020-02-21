@@ -102,6 +102,10 @@ public class Snake {
 		// in the same location as any other body segment
 		for (int i = 1; i < snake.size(); i++) {
 			if (head.getLocation().equals(snake.get(i).getLocation())) {
+				System.out.println(head.getLocation().x);
+				System.out.println(head.getLocation().y+"\n");
+				System.out.println(snake.get(i).getLocation().x);
+				System.out.println(snake.get(i).getLocation().y);
 				return true;
 			}
 		}
